@@ -13,6 +13,7 @@ export ORIGIN="$(opt origin)"
 export DEFAULT_LANG="$(opt default_lang)"
 export FIRST_USER_ADMIN="$(flag first_user_admin)"
 export INVITE_ONLY="$(flag invite_only)"
+export PASSWORD_LOGIN="$(flag password_login)"
 export ALLOW_GUEST="$(flag allow_guest)"
 export COACH_DISABLED="$(flag coach_disabled)"
 

@@ -1,5 +1,5 @@
 name: openGym
-version: "0.1.0"
+version: "0.1.1"
 slug: opengym
 description: Self-hosted gym and body-weight tracker (opengym.ch)
 url: https://opengym.ch
@@ -21,6 +21,7 @@ options:
   origin: http://localhost:8080
   first_user_admin: true
   invite_only: false
+  password_login: true
   allow_guest: true
   coach_disabled: true
   default_lang: en
@@ -29,6 +30,7 @@ schema:
   origin: str
   first_user_admin: bool
   invite_only: bool
+  password_login: bool
   allow_guest: bool
   coach_disabled: bool
   default_lang: str

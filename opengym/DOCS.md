@@ -9,3 +9,8 @@ Proxy Manager, then set:
 
 Set both **before** creating profiles; changing `rp_id` later invalidates passkeys.
 Data lives in the app's `/data` and is included in Home Assistant backups.
+
+## Password login
+
+`password_login` enables name-and-password sign-in, which works over plain HTTP on your LAN
+(passkeys do not). Passwords are sent unencrypted without HTTPS, so use it on a trusted network only.
